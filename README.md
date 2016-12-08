@@ -4,9 +4,9 @@
 
 使用方式
 
-1. 编译用来嵌入微信二进制的动态链接库TestTweak.dylib  运行脚本build_dylib.sh就可以生成
+1. cd 到 build_dylib.sh 目录下， 运行脚本build_dylib.sh就可以生成用来嵌入微信二进制的通用的动态链接库TestTweak.dylib
 
-2. 拷贝其到微信的二进制包中
+2. 解压微信ipa，将 TestTweak.dylib 拷贝其到微信的二进制包中
 
 
 3. 修改微信二进制,使其能够加载我们的动态库,这一步需要使用[optool](https://github.com/alexzielenski/optool)来实现  optool install -c load -p "@executable_path/TestTweak.dylib" -t Payload/WeChat.app/WeChat
