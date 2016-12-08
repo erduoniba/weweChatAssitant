@@ -12,12 +12,12 @@
 4. 修改微信二进制,使其能够加载我们的动态库,这一步需要使用[optool](https://github.com/alexzielenski/optool)来实现  optool install -c load -p "@executable_path/TestTweak.dylib" -t Payload/WeChat.app/WeChat
 
 
-5. 接下来把我们生成的dylib(libautoGetRedEnv.dylib)、刚刚注入dylib的WeChat、以及embedded.mobileprovision文件(可以在之前打包过的App中找到)拷贝到WeChat.app中  
+5. 接下来把我们生成的dylib(TestTweak.dylib)、刚刚注入dylib的WeChat、以及embedded.mobileprovision文件(可以在之前打包过的App中找到)拷贝到WeChat.app中  
 一定要记得 需要这个embedded.mobileprovision文件,如果没有这个文件,重签名后是安装不了的
 
 
 6. 重签名
-这一步可以使用图形化工具[ios-app-signer](https://github.com/DanTheMan827/ios-app-signer)
+这一步可以使用图形化工具[ios-app-signer源码](https://github.com/DanTheMan827/ios-app-signer) [ios-app-signer下载](http://dantheman827.github.io/ios-app-signer/) 
 
 
 > 重签名后使用iTools Pro来安装,出现错误提示  WatchKitAppBundleDNotPrefixed
