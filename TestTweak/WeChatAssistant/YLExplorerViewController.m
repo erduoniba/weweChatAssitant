@@ -10,6 +10,10 @@
 #import "YLAssitManager.h"
 #import "YLGlobalViewController.h"
 @interface YLExplorerViewController ()<YLGlobalViewControllerDelegate>
+{
+    NSInteger shakeCount;
+    CGFloat shakeInterval;
+}
 
 @end
 
@@ -21,7 +25,7 @@
     
     // Toolbar
     self.explorerToolbar = [[YLExplorerToolBar alloc] init];
-    CGSize toolbarSize = CGSizeMake(110, 50);
+    CGSize toolbarSize = CGSizeMake(160, 50);
     // Start the toolbar off below any bars that may be at the top of the view.
     CGFloat toolbarOriginY = 100.0;
     self.explorerToolbar.frame = CGRectMake(0.0, toolbarOriginY, toolbarSize.width, toolbarSize.height);
@@ -30,11 +34,11 @@
     
     
     [_explorerToolbar.menuBtn addTarget:self action:@selector(mentAction:) forControlEvents:UIControlEventTouchUpInside];
+    [_explorerToolbar.shakeBtn addTarget:self action:@selector(shakeAction:) forControlEvents:UIControlEventTouchUpInside];
     [_explorerToolbar.closrBtn addTarget:self action:@selector(closrBtnAction:) forControlEvents:UIControlEventTouchUpInside];
     
     self.movePanGR = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(handleMovePan:)];
     [self.view addGestureRecognizer:self.movePanGR];
-    
 }
 
 
@@ -46,6 +50,73 @@
     UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:vc];
     [self makeKeyAndPresentViewController:navigationController animated:YES completion:nil];
     
+}
+
+- (void)shakeAction:(id)sender{
+    UIViewController *vc = [self getCurrentVC];
+    
+    shakeCount = [[[NSUserDefaults standardUserDefaults] objectForKey:@"YLShareViewController_count"] integerValue];
+    shakeInterval = [[[NSUserDefaults standardUserDefaults] objectForKey:@"YLShareViewController_interval"] floatValue];
+    
+    if (shakeCount <= 0) {
+        shakeCount = 100;
+    }
+    
+    if (shakeInterval <= 0) {
+        shakeInterval = 0.1;
+    }
+    
+    NSInteger i = 0;
+    while (i < shakeCount) {
+        i++;
+        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(shakeInterval * i * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+            [vc motionBegan:UIEventSubtypeMotionShake withEvent:nil];
+        });
+    }
+}
+
+//获取当前屏幕显示的viewcontroller
+- (UIViewController *)getCurrentVC{
+    
+    UIViewController *result = nil;
+    UIWindow * window = [[UIApplication sharedApplication] keyWindow];
+    //app默认windowLevel是UIWindowLevelNormal，如果不是，找到UIWindowLevelNormal的
+    if (window.windowLevel != UIWindowLevelNormal)
+    {
+        NSArray *windows = [[UIApplication sharedApplication] windows];
+        for(UIWindow * tmpWin in windows)
+        {
+            if (tmpWin.windowLevel == UIWindowLevelNormal)
+            {
+                window = tmpWin;
+                break;
+            }
+        }
+    }
+    id  nextResponder = nil;
+    UIViewController *appRootVC=window.rootViewController;
+    //    如果是present上来的appRootVC.presentedViewController 不为nil
+    if (appRootVC.presentedViewController) {
+        nextResponder = appRootVC.presentedViewController;
+    }else{
+        UIView *frontView = [[window subviews] objectAtIndex:0];
+        nextResponder = [frontView nextResponder];
+    }
+    
+    if ([nextResponder isKindOfClass:[UITabBarController class]]){
+        UITabBarController * tabbar = (UITabBarController *)nextResponder;
+        UINavigationController * nav = (UINavigationController *)tabbar.viewControllers[tabbar.selectedIndex];
+        //UINavigationController * nav = tabbar.selectedViewController ; 上下两种写法都行
+        result=nav.childViewControllers.lastObject;
+        
+    }else if ([nextResponder isKindOfClass:[UINavigationController class]]){
+        UIViewController * nav = (UIViewController *)nextResponder;
+        result = nav.childViewControllers.lastObject;
+    }else{
+        result = nextResponder;
+    }
+    
+    return result;
 }
 
 - (void)closrBtnAction:(id)sender {

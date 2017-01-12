@@ -9,6 +9,7 @@
 #import "YLGlobalViewController.h"
 #import "YLHongBaoViewController.h"
 #import "YLCoordinatesViewController.h"
+#import "YLShareViewController.h"
 @interface YLGlobalViewController ()
 @property (nonatomic,strong) NSMutableArray *datas;
 @end
@@ -49,7 +50,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     
-    return 2;
+    return 3;
 }
 
 
@@ -62,6 +63,9 @@
     else if (indexPath.row == 1) {
         cell.textLabel.text = @"经纬度";
     }
+    else if (indexPath.row == 2) {
+        cell.textLabel.text = @"摇一摇";
+    }
     return cell;
 }
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
@@ -70,6 +74,9 @@
     }
     else if (indexPath.row == 1) {
         [self enterLatitudeAction];
+    }
+    else if (indexPath.row == 2) {
+        [self enterShakeAction];
     }
 }
 
@@ -83,9 +90,13 @@
 - (void)enterHongBaoAction{
     YLHongBaoViewController *vc = [YLHongBaoViewController new];
     [self.navigationController pushViewController:vc animated:YES];
-    
-    
 }
+
+- (void)enterShakeAction{
+    YLShareViewController *vc = [YLShareViewController new];
+    [self.navigationController pushViewController:vc animated:YES];
+}
+
 - (void)enterLatitudeAction{
     YLCoordinatesViewController *vc = [YLCoordinatesViewController new];
     [self.navigationController pushViewController:vc animated:YES];

@@ -31,6 +31,7 @@ static NSString *const kYLHongBaoEnableNotification = @"com.yohunl.kYLHongbaoEna
     dispatch_once(&onceToken, ^{
         
         Class class = objc_getClass("CMessageMgr") ;//[self class];
+//        Class class = [self class];
         aspect_add(class, @selector(AsyncOnAddMsg:MsgWrap:), AspectPositionAfter, ^(id<AspectInfo> aspectInfo,NSString *msg ,CMessageWrap *wrap){
             NSLog(@"yl_AsyncOnAddMsg = %@",msg);
             if (![YLHongBaoViewController isEnabled]) {

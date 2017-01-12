@@ -10,5 +10,6 @@
 
 @interface YLExplorerToolBar : UIView
 @property (nonatomic, strong) UIButton *menuBtn;
+@property (nonatomic, strong) UIButton *shakeBtn;
 @property (nonatomic, strong) UIButton *closrBtn;
 @end

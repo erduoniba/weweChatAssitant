@@ -17,6 +17,7 @@
 		09CCF6511D6708A300BEF18D /* YLSwitchTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 09CCF6461D6708A300BEF18D /* YLSwitchTableViewCell.m */; };
 		09CCF6521D6708A300BEF18D /* YLUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 09CCF6481D6708A300BEF18D /* YLUtility.m */; };
 		09CCF6531D6708A300BEF18D /* YLWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 09CCF64A1D6708A300BEF18D /* YLWindow.m */; };
+		D91C6FB71E27AEA300D56906 /* YLShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D91C6FB61E27AEA300D56906 /* YLShareViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -54,6 +55,8 @@
 		09CCF6481D6708A300BEF18D /* YLUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLUtility.m; sourceTree = "<group>"; };
 		09CCF6491D6708A300BEF18D /* YLWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLWindow.h; sourceTree = "<group>"; };
 		09CCF64A1D6708A300BEF18D /* YLWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLWindow.m; sourceTree = "<group>"; };
+		D91C6FB51E27AEA300D56906 /* YLShareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLShareViewController.h; sourceTree = "<group>"; };
+		D91C6FB61E27AEA300D56906 /* YLShareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLShareViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +97,8 @@
 		09CCF6381D6708A300BEF18D /* WeChatAssistant */ = {
 			isa = PBXGroup;
 			children = (
+				D91C6FB51E27AEA300D56906 /* YLShareViewController.h */,
+				D91C6FB61E27AEA300D56906 /* YLShareViewController.m */,
 				0934E08A1D6BF110000B9D1D /* Aspects.h */,
 				0934E08B1D6BF110000B9D1D /* Aspects.m */,
 				0934E08C1D6BF110000B9D1D /* WeChatRedEnvelop.h */,
@@ -182,6 +187,7 @@
 				09CCF6511D6708A300BEF18D /* YLSwitchTableViewCell.m in Sources */,
 				0934E08D1D6BF110000B9D1D /* Aspects.m in Sources */,
 				09CCF6531D6708A300BEF18D /* YLWindow.m in Sources */,
+				D91C6FB71E27AEA300D56906 /* YLShareViewController.m in Sources */,
 				09CCF64C1D6708A300BEF18D /* YLCoordinatesViewController.m in Sources */,
 				09CCF64F1D6708A300BEF18D /* YLGlobalViewController.m in Sources */,
 				09CCF64D1D6708A300BEF18D /* YLExplorerToolBar.m in Sources */,
