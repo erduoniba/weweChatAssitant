@@ -18,6 +18,13 @@
 		09CCF6521D6708A300BEF18D /* YLUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 09CCF6481D6708A300BEF18D /* YLUtility.m */; };
 		09CCF6531D6708A300BEF18D /* YLWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 09CCF64A1D6708A300BEF18D /* YLWindow.m */; };
 		D91C6FB71E27AEA300D56906 /* YLShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D91C6FB61E27AEA300D56906 /* YLShareViewController.m */; };
+		D92DB94A1E27C8D7009F63EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D92DB9491E27C8D7009F63EC /* main.m */; };
+		D92DB94D1E27C8D7009F63EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D92DB94C1E27C8D7009F63EC /* AppDelegate.m */; };
+		D92DB9501E27C8D7009F63EC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D92DB94F1E27C8D7009F63EC /* ViewController.m */; };
+		D92DB9531E27C8D7009F63EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D92DB9511E27C8D7009F63EC /* Main.storyboard */; };
+		D92DB9551E27C8D7009F63EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D92DB9541E27C8D7009F63EC /* Assets.xcassets */; };
+		D92DB9581E27C8D7009F63EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D92DB9561E27C8D7009F63EC /* LaunchScreen.storyboard */; };
+		D92DB95E1E27CA0F009F63EC /* libTestTweak.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 098DA9A51D658511008608A7 /* libTestTweak.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -57,6 +64,16 @@
 		09CCF64A1D6708A300BEF18D /* YLWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLWindow.m; sourceTree = "<group>"; };
 		D91C6FB51E27AEA300D56906 /* YLShareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLShareViewController.h; sourceTree = "<group>"; };
 		D91C6FB61E27AEA300D56906 /* YLShareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLShareViewController.m; sourceTree = "<group>"; };
+		D92DB9461E27C8D7009F63EC /* HDUIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HDUIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D92DB9491E27C8D7009F63EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D92DB94B1E27C8D7009F63EC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D92DB94C1E27C8D7009F63EC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D92DB94E1E27C8D7009F63EC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D92DB94F1E27C8D7009F63EC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D92DB9521E27C8D7009F63EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D92DB9541E27C8D7009F63EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D92DB9571E27C8D7009F63EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D92DB9591E27C8D7009F63EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +84,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D92DB9431E27C8D7009F63EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D92DB95E1E27CA0F009F63EC /* libTestTweak.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -74,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				098DA9A71D658511008608A7 /* TestTweak */,
+				D92DB9471E27C8D7009F63EC /* HDUIDemo */,
 				098DA9A61D658511008608A7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -82,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				098DA9A51D658511008608A7 /* libTestTweak.a */,
+				D92DB9461E27C8D7009F63EC /* HDUIDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -124,6 +151,30 @@
 			path = WeChatAssistant;
 			sourceTree = "<group>";
 		};
+		D92DB9471E27C8D7009F63EC /* HDUIDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D92DB94B1E27C8D7009F63EC /* AppDelegate.h */,
+				D92DB94C1E27C8D7009F63EC /* AppDelegate.m */,
+				D92DB94E1E27C8D7009F63EC /* ViewController.h */,
+				D92DB94F1E27C8D7009F63EC /* ViewController.m */,
+				D92DB9511E27C8D7009F63EC /* Main.storyboard */,
+				D92DB9541E27C8D7009F63EC /* Assets.xcassets */,
+				D92DB9561E27C8D7009F63EC /* LaunchScreen.storyboard */,
+				D92DB9591E27C8D7009F63EC /* Info.plist */,
+				D92DB9481E27C8D7009F63EC /* Supporting Files */,
+			);
+			path = HDUIDemo;
+			sourceTree = "<group>";
+		};
+		D92DB9481E27C8D7009F63EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D92DB9491E27C8D7009F63EC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,6 +195,23 @@
 			productReference = 098DA9A51D658511008608A7 /* libTestTweak.a */;
 			productType = "com.apple.product-type.library.static";
 		};
+		D92DB9451E27C8D7009F63EC /* HDUIDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D92DB95C1E27C8D7009F63EC /* Build configuration list for PBXNativeTarget "HDUIDemo" */;
+			buildPhases = (
+				D92DB9421E27C8D7009F63EC /* Sources */,
+				D92DB9431E27C8D7009F63EC /* Frameworks */,
+				D92DB9441E27C8D7009F63EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HDUIDemo;
+			productName = HDUIDemo;
+			productReference = D92DB9461E27C8D7009F63EC /* HDUIDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -156,6 +224,10 @@
 					098DA9A41D658511008608A7 = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
+					D92DB9451E27C8D7009F63EC = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 098DA9A01D658511008608A7 /* Build configuration list for PBXProject "TestTweak" */;
@@ -164,6 +236,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 098DA99C1D658511008608A7;
 			productRefGroup = 098DA9A61D658511008608A7 /* Products */;
@@ -171,9 +244,23 @@
 			projectRoot = "";
 			targets = (
 				098DA9A41D658511008608A7 /* TestTweak */,
+				D92DB9451E27C8D7009F63EC /* HDUIDemo */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D92DB9441E27C8D7009F63EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D92DB9581E27C8D7009F63EC /* LaunchScreen.storyboard in Resources */,
+				D92DB9551E27C8D7009F63EC /* Assets.xcassets in Resources */,
+				D92DB9531E27C8D7009F63EC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		098DA9A11D658511008608A7 /* Sources */ = {
@@ -194,7 +281,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D92DB9421E27C8D7009F63EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D92DB9501E27C8D7009F63EC /* ViewController.m in Sources */,
+				D92DB94D1E27C8D7009F63EC /* AppDelegate.m in Sources */,
+				D92DB94A1E27C8D7009F63EC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D92DB9511E27C8D7009F63EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D92DB9521E27C8D7009F63EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D92DB9561E27C8D7009F63EC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D92DB9571E27C8D7009F63EC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		098DA9AC1D658511008608A7 /* Debug */ = {
@@ -297,6 +413,36 @@
 			};
 			name = Release;
 		};
+		D92DB95A1E27C8D7009F63EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				INFOPLIST_FILE = HDUIDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.harry.HDUIDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D92DB95B1E27C8D7009F63EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				INFOPLIST_FILE = HDUIDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.harry.HDUIDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -317,6 +463,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		D92DB95C1E27C8D7009F63EC /* Build configuration list for PBXNativeTarget "HDUIDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D92DB95A1E27C8D7009F63EC /* Debug */,
+				D92DB95B1E27C8D7009F63EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
