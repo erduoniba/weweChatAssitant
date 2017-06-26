@@ -7,24 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0934E08D1D6BF110000B9D1D /* Aspects.m in Sources */ = {isa = PBXBuildFile; fileRef = 0934E08B1D6BF110000B9D1D /* Aspects.m */; };
-		09CCF64B1D6708A300BEF18D /* YLAssitManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 09CCF63A1D6708A300BEF18D /* YLAssitManager.m */; };
-		09CCF64C1D6708A300BEF18D /* YLCoordinatesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09CCF63C1D6708A300BEF18D /* YLCoordinatesViewController.m */; };
-		09CCF64D1D6708A300BEF18D /* YLExplorerToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 09CCF63E1D6708A300BEF18D /* YLExplorerToolBar.m */; };
-		09CCF64E1D6708A300BEF18D /* YLExplorerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09CCF6401D6708A300BEF18D /* YLExplorerViewController.m */; };
-		09CCF64F1D6708A300BEF18D /* YLGlobalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09CCF6421D6708A300BEF18D /* YLGlobalViewController.m */; };
-		09CCF6501D6708A300BEF18D /* YLHongBaoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09CCF6441D6708A300BEF18D /* YLHongBaoViewController.m */; };
-		09CCF6511D6708A300BEF18D /* YLSwitchTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 09CCF6461D6708A300BEF18D /* YLSwitchTableViewCell.m */; };
-		09CCF6521D6708A300BEF18D /* YLUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 09CCF6481D6708A300BEF18D /* YLUtility.m */; };
-		09CCF6531D6708A300BEF18D /* YLWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 09CCF64A1D6708A300BEF18D /* YLWindow.m */; };
-		D91C6FB71E27AEA300D56906 /* YLShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D91C6FB61E27AEA300D56906 /* YLShareViewController.m */; };
+		D91C701F1E29FE1A00D56906 /* Aspects.m in Sources */ = {isa = PBXBuildFile; fileRef = D91C70091E29FE1A00D56906 /* Aspects.m */; };
+		D91C70201E29FE1A00D56906 /* YLAssitManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D91C700C1E29FE1A00D56906 /* YLAssitManager.m */; };
+		D91C70211E29FE1A00D56906 /* YLCoordinatesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D91C700E1E29FE1A00D56906 /* YLCoordinatesViewController.m */; };
+		D91C70221E29FE1A00D56906 /* YLExplorerToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = D91C70101E29FE1A00D56906 /* YLExplorerToolBar.m */; };
+		D91C70231E29FE1A00D56906 /* YLExplorerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D91C70121E29FE1A00D56906 /* YLExplorerViewController.m */; };
+		D91C70241E29FE1A00D56906 /* YLGlobalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D91C70141E29FE1A00D56906 /* YLGlobalViewController.m */; };
+		D91C70251E29FE1A00D56906 /* YLHongBaoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D91C70161E29FE1A00D56906 /* YLHongBaoViewController.m */; };
+		D91C70261E29FE1A00D56906 /* YLShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D91C70181E29FE1A00D56906 /* YLShareViewController.m */; };
+		D91C70271E29FE1A00D56906 /* YLSwitchTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D91C701A1E29FE1A00D56906 /* YLSwitchTableViewCell.m */; };
+		D91C70281E29FE1A00D56906 /* YLUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = D91C701C1E29FE1A00D56906 /* YLUtility.m */; };
+		D91C70291E29FE1A00D56906 /* YLWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = D91C701E1E29FE1A00D56906 /* YLWindow.m */; };
+		D91C702A1E29FE8900D56906 /* libTestTweak.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 098DA9A51D658511008608A7 /* libTestTweak.a */; };
 		D92DB94A1E27C8D7009F63EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D92DB9491E27C8D7009F63EC /* main.m */; };
 		D92DB94D1E27C8D7009F63EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D92DB94C1E27C8D7009F63EC /* AppDelegate.m */; };
 		D92DB9501E27C8D7009F63EC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D92DB94F1E27C8D7009F63EC /* ViewController.m */; };
 		D92DB9531E27C8D7009F63EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D92DB9511E27C8D7009F63EC /* Main.storyboard */; };
 		D92DB9551E27C8D7009F63EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D92DB9541E27C8D7009F63EC /* Assets.xcassets */; };
 		D92DB9581E27C8D7009F63EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D92DB9561E27C8D7009F63EC /* LaunchScreen.storyboard */; };
-		D92DB95E1E27CA0F009F63EC /* libTestTweak.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 098DA9A51D658511008608A7 /* libTestTweak.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -40,30 +40,30 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0934E08A1D6BF110000B9D1D /* Aspects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Aspects.h; sourceTree = "<group>"; };
-		0934E08B1D6BF110000B9D1D /* Aspects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Aspects.m; sourceTree = "<group>"; };
-		0934E08C1D6BF110000B9D1D /* WeChatRedEnvelop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeChatRedEnvelop.h; sourceTree = "<group>"; };
 		098DA9A51D658511008608A7 /* libTestTweak.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTestTweak.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		09CCF6391D6708A300BEF18D /* YLAssitManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLAssitManager.h; sourceTree = "<group>"; };
-		09CCF63A1D6708A300BEF18D /* YLAssitManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLAssitManager.m; sourceTree = "<group>"; };
-		09CCF63B1D6708A300BEF18D /* YLCoordinatesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLCoordinatesViewController.h; sourceTree = "<group>"; };
-		09CCF63C1D6708A300BEF18D /* YLCoordinatesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLCoordinatesViewController.m; sourceTree = "<group>"; };
-		09CCF63D1D6708A300BEF18D /* YLExplorerToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLExplorerToolBar.h; sourceTree = "<group>"; };
-		09CCF63E1D6708A300BEF18D /* YLExplorerToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLExplorerToolBar.m; sourceTree = "<group>"; };
-		09CCF63F1D6708A300BEF18D /* YLExplorerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLExplorerViewController.h; sourceTree = "<group>"; };
-		09CCF6401D6708A300BEF18D /* YLExplorerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLExplorerViewController.m; sourceTree = "<group>"; };
-		09CCF6411D6708A300BEF18D /* YLGlobalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLGlobalViewController.h; sourceTree = "<group>"; };
-		09CCF6421D6708A300BEF18D /* YLGlobalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLGlobalViewController.m; sourceTree = "<group>"; };
-		09CCF6431D6708A300BEF18D /* YLHongBaoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLHongBaoViewController.h; sourceTree = "<group>"; };
-		09CCF6441D6708A300BEF18D /* YLHongBaoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLHongBaoViewController.m; sourceTree = "<group>"; };
-		09CCF6451D6708A300BEF18D /* YLSwitchTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLSwitchTableViewCell.h; sourceTree = "<group>"; };
-		09CCF6461D6708A300BEF18D /* YLSwitchTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLSwitchTableViewCell.m; sourceTree = "<group>"; };
-		09CCF6471D6708A300BEF18D /* YLUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLUtility.h; sourceTree = "<group>"; };
-		09CCF6481D6708A300BEF18D /* YLUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLUtility.m; sourceTree = "<group>"; };
-		09CCF6491D6708A300BEF18D /* YLWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLWindow.h; sourceTree = "<group>"; };
-		09CCF64A1D6708A300BEF18D /* YLWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLWindow.m; sourceTree = "<group>"; };
-		D91C6FB51E27AEA300D56906 /* YLShareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLShareViewController.h; sourceTree = "<group>"; };
-		D91C6FB61E27AEA300D56906 /* YLShareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLShareViewController.m; sourceTree = "<group>"; };
+		D91C70081E29FE1A00D56906 /* Aspects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Aspects.h; sourceTree = "<group>"; };
+		D91C70091E29FE1A00D56906 /* Aspects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Aspects.m; sourceTree = "<group>"; };
+		D91C700A1E29FE1A00D56906 /* WeChatRedEnvelop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeChatRedEnvelop.h; sourceTree = "<group>"; };
+		D91C700B1E29FE1A00D56906 /* YLAssitManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLAssitManager.h; sourceTree = "<group>"; };
+		D91C700C1E29FE1A00D56906 /* YLAssitManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLAssitManager.m; sourceTree = "<group>"; };
+		D91C700D1E29FE1A00D56906 /* YLCoordinatesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLCoordinatesViewController.h; sourceTree = "<group>"; };
+		D91C700E1E29FE1A00D56906 /* YLCoordinatesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLCoordinatesViewController.m; sourceTree = "<group>"; };
+		D91C700F1E29FE1A00D56906 /* YLExplorerToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLExplorerToolBar.h; sourceTree = "<group>"; };
+		D91C70101E29FE1A00D56906 /* YLExplorerToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLExplorerToolBar.m; sourceTree = "<group>"; };
+		D91C70111E29FE1A00D56906 /* YLExplorerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLExplorerViewController.h; sourceTree = "<group>"; };
+		D91C70121E29FE1A00D56906 /* YLExplorerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLExplorerViewController.m; sourceTree = "<group>"; };
+		D91C70131E29FE1A00D56906 /* YLGlobalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLGlobalViewController.h; sourceTree = "<group>"; };
+		D91C70141E29FE1A00D56906 /* YLGlobalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLGlobalViewController.m; sourceTree = "<group>"; };
+		D91C70151E29FE1A00D56906 /* YLHongBaoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLHongBaoViewController.h; sourceTree = "<group>"; };
+		D91C70161E29FE1A00D56906 /* YLHongBaoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLHongBaoViewController.m; sourceTree = "<group>"; };
+		D91C70171E29FE1A00D56906 /* YLShareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLShareViewController.h; sourceTree = "<group>"; };
+		D91C70181E29FE1A00D56906 /* YLShareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLShareViewController.m; sourceTree = "<group>"; };
+		D91C70191E29FE1A00D56906 /* YLSwitchTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLSwitchTableViewCell.h; sourceTree = "<group>"; };
+		D91C701A1E29FE1A00D56906 /* YLSwitchTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLSwitchTableViewCell.m; sourceTree = "<group>"; };
+		D91C701B1E29FE1A00D56906 /* YLUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLUtility.h; sourceTree = "<group>"; };
+		D91C701C1E29FE1A00D56906 /* YLUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLUtility.m; sourceTree = "<group>"; };
+		D91C701D1E29FE1A00D56906 /* YLWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLWindow.h; sourceTree = "<group>"; };
+		D91C701E1E29FE1A00D56906 /* YLWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLWindow.m; sourceTree = "<group>"; };
 		D92DB9461E27C8D7009F63EC /* HDUIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HDUIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D92DB9491E27C8D7009F63EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D92DB94B1E27C8D7009F63EC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -88,7 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D92DB95E1E27CA0F009F63EC /* libTestTweak.a in Frameworks */,
+				D91C702A1E29FE8900D56906 /* libTestTweak.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,29 +124,29 @@
 		09CCF6381D6708A300BEF18D /* WeChatAssistant */ = {
 			isa = PBXGroup;
 			children = (
-				D91C6FB51E27AEA300D56906 /* YLShareViewController.h */,
-				D91C6FB61E27AEA300D56906 /* YLShareViewController.m */,
-				0934E08A1D6BF110000B9D1D /* Aspects.h */,
-				0934E08B1D6BF110000B9D1D /* Aspects.m */,
-				0934E08C1D6BF110000B9D1D /* WeChatRedEnvelop.h */,
-				09CCF6391D6708A300BEF18D /* YLAssitManager.h */,
-				09CCF63A1D6708A300BEF18D /* YLAssitManager.m */,
-				09CCF63B1D6708A300BEF18D /* YLCoordinatesViewController.h */,
-				09CCF63C1D6708A300BEF18D /* YLCoordinatesViewController.m */,
-				09CCF63D1D6708A300BEF18D /* YLExplorerToolBar.h */,
-				09CCF63E1D6708A300BEF18D /* YLExplorerToolBar.m */,
-				09CCF63F1D6708A300BEF18D /* YLExplorerViewController.h */,
-				09CCF6401D6708A300BEF18D /* YLExplorerViewController.m */,
-				09CCF6411D6708A300BEF18D /* YLGlobalViewController.h */,
-				09CCF6421D6708A300BEF18D /* YLGlobalViewController.m */,
-				09CCF6431D6708A300BEF18D /* YLHongBaoViewController.h */,
-				09CCF6441D6708A300BEF18D /* YLHongBaoViewController.m */,
-				09CCF6451D6708A300BEF18D /* YLSwitchTableViewCell.h */,
-				09CCF6461D6708A300BEF18D /* YLSwitchTableViewCell.m */,
-				09CCF6471D6708A300BEF18D /* YLUtility.h */,
-				09CCF6481D6708A300BEF18D /* YLUtility.m */,
-				09CCF6491D6708A300BEF18D /* YLWindow.h */,
-				09CCF64A1D6708A300BEF18D /* YLWindow.m */,
+				D91C70081E29FE1A00D56906 /* Aspects.h */,
+				D91C70091E29FE1A00D56906 /* Aspects.m */,
+				D91C700A1E29FE1A00D56906 /* WeChatRedEnvelop.h */,
+				D91C700B1E29FE1A00D56906 /* YLAssitManager.h */,
+				D91C700C1E29FE1A00D56906 /* YLAssitManager.m */,
+				D91C700D1E29FE1A00D56906 /* YLCoordinatesViewController.h */,
+				D91C700E1E29FE1A00D56906 /* YLCoordinatesViewController.m */,
+				D91C700F1E29FE1A00D56906 /* YLExplorerToolBar.h */,
+				D91C70101E29FE1A00D56906 /* YLExplorerToolBar.m */,
+				D91C70111E29FE1A00D56906 /* YLExplorerViewController.h */,
+				D91C70121E29FE1A00D56906 /* YLExplorerViewController.m */,
+				D91C70131E29FE1A00D56906 /* YLGlobalViewController.h */,
+				D91C70141E29FE1A00D56906 /* YLGlobalViewController.m */,
+				D91C70151E29FE1A00D56906 /* YLHongBaoViewController.h */,
+				D91C70161E29FE1A00D56906 /* YLHongBaoViewController.m */,
+				D91C70171E29FE1A00D56906 /* YLShareViewController.h */,
+				D91C70181E29FE1A00D56906 /* YLShareViewController.m */,
+				D91C70191E29FE1A00D56906 /* YLSwitchTableViewCell.h */,
+				D91C701A1E29FE1A00D56906 /* YLSwitchTableViewCell.m */,
+				D91C701B1E29FE1A00D56906 /* YLUtility.h */,
+				D91C701C1E29FE1A00D56906 /* YLUtility.m */,
+				D91C701D1E29FE1A00D56906 /* YLWindow.h */,
+				D91C701E1E29FE1A00D56906 /* YLWindow.m */,
 			);
 			path = WeChatAssistant;
 			sourceTree = "<group>";
@@ -267,17 +267,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09CCF6521D6708A300BEF18D /* YLUtility.m in Sources */,
-				09CCF64E1D6708A300BEF18D /* YLExplorerViewController.m in Sources */,
-				09CCF6501D6708A300BEF18D /* YLHongBaoViewController.m in Sources */,
-				09CCF64B1D6708A300BEF18D /* YLAssitManager.m in Sources */,
-				09CCF6511D6708A300BEF18D /* YLSwitchTableViewCell.m in Sources */,
-				0934E08D1D6BF110000B9D1D /* Aspects.m in Sources */,
-				09CCF6531D6708A300BEF18D /* YLWindow.m in Sources */,
-				D91C6FB71E27AEA300D56906 /* YLShareViewController.m in Sources */,
-				09CCF64C1D6708A300BEF18D /* YLCoordinatesViewController.m in Sources */,
-				09CCF64F1D6708A300BEF18D /* YLGlobalViewController.m in Sources */,
-				09CCF64D1D6708A300BEF18D /* YLExplorerToolBar.m in Sources */,
+				D91C701F1E29FE1A00D56906 /* Aspects.m in Sources */,
+				D91C70281E29FE1A00D56906 /* YLUtility.m in Sources */,
+				D91C70291E29FE1A00D56906 /* YLWindow.m in Sources */,
+				D91C70271E29FE1A00D56906 /* YLSwitchTableViewCell.m in Sources */,
+				D91C70261E29FE1A00D56906 /* YLShareViewController.m in Sources */,
+				D91C70231E29FE1A00D56906 /* YLExplorerViewController.m in Sources */,
+				D91C70251E29FE1A00D56906 /* YLHongBaoViewController.m in Sources */,
+				D91C70201E29FE1A00D56906 /* YLAssitManager.m in Sources */,
+				D91C70211E29FE1A00D56906 /* YLCoordinatesViewController.m in Sources */,
+				D91C70241E29FE1A00D56906 /* YLGlobalViewController.m in Sources */,
+				D91C70221E29FE1A00D56906 /* YLExplorerToolBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,6 +471,7 @@
 				D92DB95B1E27C8D7009F63EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
